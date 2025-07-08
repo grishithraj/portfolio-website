@@ -1,3 +1,4 @@
+import { Particles } from "../components/magicui/particles";
 const Projects = () => {
   return (
     <section id="projects">
@@ -26,6 +27,9 @@ const Projects = () => {
             View on GitHub
           </a>
         </div>
+      </div>
+      <div className="relative overflow-hidden h-[500px] w-full">
+        <Particles />
       </div>
     </section>
   );

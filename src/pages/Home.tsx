@@ -3,6 +3,7 @@ import Hero from "../components/hero";
 import Projects from "../components/project";
 import Contact from "../components/contact";
 import { ScrollProgress } from "../components/magicui/scroll-progress";
+
 function Home() {
   return (
     <>

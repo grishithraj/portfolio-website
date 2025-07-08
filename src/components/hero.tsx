@@ -31,6 +31,7 @@ const Hero = () => {
               A passionate video editor & full-stack web developer crafting
               beautiful and functional experiences.
             </p>
+            <img src="image-removebg-preview.png" alt="there is an image" />
           </>
         )}
       </div>
