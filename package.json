@@ -13,7 +13,6 @@
     "@heroui/skeleton": "^2.2.14",
     "@heroui/system": "^2.4.18",
     "@heroui/theme": "^2.4.17",
-    "@studio-freight/lenis": "^1.0.42",
     "@tabler/icons-react": "^3.34.0",
     "@tailwindcss/postcss": "^4.1.11",
     "@tailwindcss/vite": "^4.1.11",

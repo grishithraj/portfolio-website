@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Home from "./pages/Home";
-import Lenis from "@studio-freight/lenis";
+import Lenis from "lenis";
 
 function App() {
   useEffect(() => {
