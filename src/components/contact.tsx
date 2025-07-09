@@ -1,4 +1,5 @@
 import { ShimmerButton } from "../components/magicui/shimmer-button";
+import { Particles } from "../components/magicui/particles";
 
 const Contact = () => {
   return (
@@ -12,6 +13,9 @@ const Contact = () => {
           Send Email
         </span>
       </ShimmerButton>
+      <div className="relative overflow-hidden h-[500px] w-full">
+        <Particles />
+      </div>
     </section>
   );
 };

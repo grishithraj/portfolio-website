@@ -2,6 +2,7 @@ import { Ripple } from "../components/magicui/ripple";
 import { Meteors } from "../components/magicui/meteors";
 import { Skeleton } from "../components/ui/skeleton";
 import { InteractiveHoverButton } from "../components/magicui/interactive-hover-button";
+import { Particles } from "../components/magicui/particles";
 
 const Hero = () => {
   return (
@@ -24,20 +25,30 @@ const Hero = () => {
           </>
         ) : (
           <>
-            <h2 className="text-4xl md:text-6xl font-extrabold mb-4">
-              Hi, I'm Rishith
-            </h2>
-            <p className="text-lg md:text-xl text-gray-300 max-w-xl">
-              A passionate video editor & full-stack web developer crafting
-              beautiful and functional experiences.
-            </p>
-            <img src="image-removebg-preview.png" alt="there is an image" />
+            <div className="flex items-center z-10">
+              {" "}
+              <div>
+                <h2 className="text-4xl md:text-6xl font-extrabold mb-4">
+                  Hi, I'm Rishith
+                </h2>
+                <p className="text-lg md:text-xl text-gray-300 max-w-xl">
+                  A passionate video editor & full-stack web developer crafting
+                  beautiful and functional experiences.
+                </p>
+                <InteractiveHoverButton className="text-black mt-10">
+                  <a href="#projects">See my works</a>
+                </InteractiveHoverButton>
+              </div>
+              <div>
+                <img src="image-removebg-preview.png" alt="there is an image" />
+              </div>
+            </div>{" "}
           </>
         )}
       </div>
-      <InteractiveHoverButton className="text-black mt-10">
-        <a href="#projects">See my works</a>
-      </InteractiveHoverButton>
+      <div className="relative overflow-hidden h-[500px] w-full">
+        <Particles />
+      </div>
     </section>
   );
 };
